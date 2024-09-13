@@ -1,15 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Exam Statistics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      background-color: #ffffff;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    thead {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+      background-color: #ddd;
+    }
+  </style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+  <table>
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Subject</th>
+        <th>Marks Scored</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alice</td>
+        <td>Mathematics</td>
+        <td>95</td>
+        <td>A+</td>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td>Science</td>
+        <td>88</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Charlie</td>
+        <td>English</td>
+        <td>78</td>
+        <td>B+</td>
+      </tr>
+      <tr>
+        <td>Daisy</td>
+        <td>Social Studies</td>
+        <td>85</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Ethan</td>
+        <td>Computer Science</td>
+        <td>92</td>
+        <td>A+</td>
+      </tr>
+    </tbody>
+  </table>
+
 </body>
 </html>
